@@ -9,23 +9,119 @@ body{
 .main{
     display: flex;
     height: 100vh;
+    padding: 0.5rem;
 }
 
 .sidebar{
     background-color: black;
     height: 100%;
     width: 300px;
-    border-radius: 1rem; /*16px*/
-
 }
 .nav{
-    background-color: #222e35;
-    border-radius: 1rem;
+    background-color: #121416;
+    height: 150px;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+    margin: 0.4rem;
+}
+.nav .nav-option{
+  margin-top: 10px;
+}
+.nav-option{
+    opacity: 0.7;
+}
+.nav-option:hover{
+    opacity: 1;
+}
+.nav .nav-option img{
+    height: 25px;
+}
+.nav .nav-option2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
 }
 .nav a{
     text-decoration: none;
     color: white;
+    margin: 5px;
+    font-weight: 600;
+    font-size: larger;
 }
+
+/* Library section  */
+.library{
+    background-color: grey;
+    border-radius: 5px;
+    height: 100%;
+    background-color: rgb(23, 23, 23);
+    margin: 0.4rem;
+}
+.library-option img,a{
+    width: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.library-option{
+    padding: 0.5rem 0.75rem;
+}
+.icons{
+    font-size: 1rem;
+    display: flex;
+}
+.icons i{
+    margin-right: 20px;
+    opacity: 0.7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.box{
+    
+    background-color: #272727;
+    border-radius: 0.6rem;
+    margin: 0.75rem 0.5rem;
+    padding: 1rem 1.25rem;
+    
+}
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 1rem 0rem;
+}
+.box-p2{
+    font-size: 0.90rem;
+    opacity: 0.9;
+    margin: 1rem 0rem;
+}
+.badge{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 1rem;
+    font-weight: 700;
+    height: 2rem;
+    margin-top: 0.5rem;
+    width: fit-content;
+}
+.badge:hover{
+    transform: scale(1.04);
+}
+
+
+
+
+
 
 .main_content{
     background-color: #121212;
