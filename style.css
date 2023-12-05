@@ -12,19 +12,31 @@ body{
 }
 
 .sidebar{
-    background-color: yellow;
+    background-color: black;
     height: 100%;
     width: 300px;
+    border-radius: 1rem; /*16px*/
+
+}
+.nav{
+    background-color: #222e35;
+    border-radius: 1rem;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
 }
 
 .main_content{
-    background-color: pink;
+    background-color: #121212;
     height: 100%;
     flex:1;
+    overflow: auto;
+    border-radius: 1rem;
 }
 
 .music_player{
-    background-color: orange;
+    background-color: black;
     height: 100%;
     position: fixed;
     bottom: 0;
