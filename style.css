@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -6,18 +6,20 @@ body{
     color: white;
     overflow: hidden;
 }
-.main{
+
+.main {
     display: flex;
     height: 100vh;
     padding: 0.5rem;
 }
 
-.sidebar{
+.sidebar {
     background-color: black;
     height: 100%;
     width: 300px;
 }
-.nav{
+
+.nav {
     background-color: #121416;
     height: 150px;
     border-radius: 0.3rem;
@@ -26,25 +28,31 @@ body{
     padding: 0.5rem 2rem;
     margin: 0.4rem;
 }
-.nav .nav-option{
-  margin-top: 10px;
+
+.nav .nav-option {
+    margin-top: 10px;
 }
-.nav-option{
+
+.nav-option {
     opacity: 0.7;
 }
-.nav-option:hover{
+
+.nav-option:hover {
     opacity: 1;
 }
-.nav .nav-option img{
+
+.nav .nav-option img {
     height: 25px;
 }
-.nav .nav-option2{
+
+.nav .nav-option2 {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
     margin-top: 20px;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     color: white;
     margin: 5px;
@@ -53,59 +61,70 @@ body{
 }
 
 /* Library section  */
-.library{
+.library {
     background-color: grey;
     border-radius: 5px;
     height: 100%;
     background-color: rgb(23, 23, 23);
     margin: 0.4rem;
-    
+
 }
-.library-option img,a{
+
+.library-option img,
+a {
     width: 15px;
     text-decoration: none;
     color: white;
     font-weight: 600;
 }
-.options{
+
+.options {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.library-option{
+
+.library-option {
     padding: 0.5rem 0.75rem;
 }
-.icons{
+
+.icons {
     font-size: 1rem;
     display: flex;
 }
-.icons i{
+
+.icons i {
     margin-right: 20px;
     opacity: 0.7;
 }
-.icons i:hover{
+
+.icons i:hover {
     opacity: 1;
 }
-.box{
-    
+
+.box {
+
     background-color: #272727;
     border-radius: 0.6rem;
     margin: 0.75rem 0.5rem;
     padding: 1rem 1.25rem;
-    
+
 }
-.box-p1{
+
+.box-p1 {
     font-size: 1rem;
     font-weight: 500;
     margin: 1rem 0rem;
 }
-.box-p2{
+
+.box-p2 {
     font-size: 0.90rem;
     opacity: 0.9;
     margin: 1rem 0rem;
 }
-.badge{
+
+.badge {
     background-color: white;
     border: none;
     border-radius: 100px;
@@ -115,7 +134,8 @@ body{
     margin-top: 0.5rem;
     width: fit-content;
 }
-.badge:hover{
+
+.badge:hover {
     transform: scale(1.04);
 }
 
@@ -125,14 +145,16 @@ body{
 
 /* Main styling stats here */
 
-.main_content{
+.main_content {
     background-color: #121212;
     height: 100%;
-    flex:1;
+    flex: 1;
     overflow: auto;
     border-radius: 1rem;
+    padding: 0 1.5rem 0 1.5rem;
 }
-.main .sticky-nav{
+
+.main .sticky-nav {
     position: sticky;
     top: 0;
     background-color: #121212;
@@ -141,42 +163,71 @@ body{
     justify-content: space-between;
     padding: 0.8rem 0rem;
 }
-.sticky-nav-icons img{
-font-size: 2rem;
-margin-left: 2rem;
-border-radius: 100px;
-opacity: 0.8;
+
+.sticky-nav-icons img {
+    font-size: 2rem;
+    margin-left: 2rem;
+    border-radius: 100px;
+    opacity: 0.8;
 }
-.sticky-nav-icons img:hover{
+
+.sticky-nav-icons img:hover {
     opacity: 1;
     transform: scale(1.05);
 }
+
 .sticky-nav-option {
-display: flex;
-justify-content: space-around;
-align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
-.sticky-nav-item{
+
+.sticky-nav-item {
     margin-right: 1rem;
 }
-.sticky-user:hover{
+
+.sticky-user:hover {
     transform: scale(1.1);
 }
-.dark-badge{
+
+.dark-badge {
     background-color: black;
     color: white;
 }
 
-@media (max-width : 1000px){
-    .hide{
+@media (max-width : 1000px) {
+    .hide {
         display: none;
     }
 }
 
+.card {
+    background-color: rgb(39, 36, 36);
+    width: 150px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cards-img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card-title{
+    font-weight: 600;
+    padding: 1rem 0rem;
+}
+.card-info{
+    font-size: 0.7rem;
+    opacity: 0.8;
+}
 
 
-
-.music_player{
+.music_player {
     background-color: black;
     height: 100%;
     position: fixed;
