@@ -59,6 +59,7 @@ body{
     height: 100%;
     background-color: rgb(23, 23, 23);
     margin: 0.4rem;
+    
 }
 .library-option img,a{
     width: 15px;
@@ -122,6 +123,7 @@ body{
 
 
 
+/* Main styling stats here */
 
 .main_content{
     background-color: #121212;
@@ -129,6 +131,13 @@ body{
     flex:1;
     overflow: auto;
     border-radius: 1rem;
+}
+.main .sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
 }
 
 .music_player{
